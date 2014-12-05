@@ -2,6 +2,9 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: rgb(249, 242, 214);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 header{
@@ -17,6 +20,10 @@ header{
 
 header a{
     color:white;
+}
+
+header a:hover{
+    text-shadow: 3px 3px 3px black;
 }
 
 li{
@@ -40,7 +47,7 @@ h2{
 }
 
 .home p{
-    margin-top: 350px;
+    margin-top: 300px;
     font-size:40px;
 }
 
@@ -76,6 +83,7 @@ h2{
     padding:  5px 8px;
     border-radius: 8px;
     font-size:19px;
+    background-color: rgb(204, 181, 102);
 }
 
 .pro li a:hover{
@@ -89,6 +97,7 @@ h2{
 .icons img{
     height: 80px;
     width: 80px;
+    margin-left: 5px;
 }
 
 .contact{
