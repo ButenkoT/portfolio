@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    position: relative;
+    top: 0px;
+    border: 1px solid red;
+    height: 70px; 
+    text-align: center;  
+}
+
+li{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.icons img{
+    height: 80px;
+    width: 80px;
+    color: red;
+}
