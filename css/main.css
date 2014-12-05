@@ -18,8 +18,35 @@ li{
     text-decoration: none;
 }
 
+.projects{
+    text-align: center;
+}
+
+.pro{
+    display: inline-block;
+    height:35em;
+    width: 25em;
+    border: 1px dotted black;
+    margin-right: 20px;
+    margin-bottom: 20px; 
+    vertical-align: top;
+}
+
+.pro img{
+    height:22em;
+    width: 24em;
+}
+
+.pro p{
+    margin: 10px 5px;
+}
+
 .icons img{
     height: 80px;
     width: 80px;
-    color: red;
+}
+
+.contact{
+    border: 1px solid green;
+    text-align: center;
 }
