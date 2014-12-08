@@ -41,6 +41,11 @@ h2{
     margin-bottom: 80px;
 }
 
+.home, .about, .projects, .contact{
+    text-align:center;
+    height: 800px;
+}
+
 .home{
     margin-top: 70px;
     position: relative;
@@ -51,14 +56,10 @@ h2{
     font-size:40px;
 }
 
-.home, .about, .projects, .contact{
-    text-align:center;
-    height: 800px;
-}
-
 .about *{
     display: inline-block;
     vertical-align: top;
+    text-align: left;
 }
 
 .photo img{
@@ -68,45 +69,39 @@ h2{
 
 .full_info{
     height: 350px;
-    width: 600px;
-    text-align: left;
+    max-width: 600px; 
     padding-left: 10px;
     margin-left: 5px;
+    line-height: 20px;
 }
 
-h3{
-    margin-left: 15px;
-    margin-bottom: 0px;
-}
-
-.full_info ul li{
+.full_info ul li{   
     margin: 0px;
-    font-size: 16px;
+    font-size: 16px;    
+}
+
+.full_info h3{
+    margin: 0px 0px 0px 15px;
 }
 
 .info{
-    border: 1px dotted blue;
-    width: 580px;
+    max-width: 580px;
     height: 200px;
 }
 
-.info h3{
-    margin-top: 0px;
-}
-
-/* .info p{
+.info p{
     padding-left: 35px;
-} */
+}
 
 .education{
     margin-top: 10px;
-    width: 580px;
+    max-width: 580px;
     height: 140px;
 }
 
 .pro{
     display: inline-block;
-    height:35em;
+    height:34em;
     width: 20em;
     border: 1px solid black;
     box-shadow: 5px 5px 5px grey;
@@ -121,7 +116,7 @@ h3{
 }
 
 .pro p{
-    margin: 10px 10px;
+    margin: 10px;
     font-size: 18px;
     line-height: 25px;
 }
@@ -142,12 +137,16 @@ h3{
     padding: 5px 25px;
 }
 
+.contact h2{
+    margin-bottom: 250px;
+}
+
 .icons img{
     height: 80px;
     width: 80px;
     margin-left: 5px;
 }
 
-.contact{
-    border: 1px solid green;
+h2{
+    border-bottom: 1px solid rgb(249, 242, 214);
 }
