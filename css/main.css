@@ -43,7 +43,7 @@ h2{
 
 .home, .about, .projects, .contact{
     text-align:center;
-    height: 800px;
+    height: 700px;
 }
 
 .home{
@@ -84,19 +84,8 @@ h2{
     margin: 0px 0px 0px 15px;
 }
 
-.info{
-    max-width: 580px;
-    height: 200px;
-}
-
 .info p{
     padding-left: 35px;
-}
-
-.education{
-    margin-top: 10px;
-    max-width: 580px;
-    height: 140px;
 }
 
 .pro{
